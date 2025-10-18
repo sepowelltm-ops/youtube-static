@@ -1,5 +1,5 @@
 const videos = [
-  { title: "Amazing Nature", id: "5qap5aO4i9A" },
+  { title: "How Much Weight Can a Spider Web Hold?", id: "Gdsg1P4Pv0ol-G57" },
   { title: "Relaxing Jazz Music", id: "Dx5qFachd3A" },
   { title: "Funny Cats Compilation", id: "J---aiyznGQ" },
   { title: "Calm Piano Music", id: "1ZYbU82GVz4" },
