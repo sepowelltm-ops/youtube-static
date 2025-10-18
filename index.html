@@ -1,50 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Top YouTube Videos</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Gallery</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Top 5 YouTube Videos Per Channel</h1>
-    <p>Static embeds without API key</p>
+    <h1>Video Gallery</h1>
+    <input type="text" id="search" placeholder="Search videos..." />
   </header>
 
   <main>
-    <section>
-      <h2>MrBeast</h2>
-      <div class="grid">
-        <iframe src="https://www.youtube.com/embed/3g0F_0oh8qM" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/gOR7J1x4wYE" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/Xv3ZDFG1rAI" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/7T0k8rx5OIE" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/0NWgPX6q9Ds" allowfullscreen></iframe>
-      </div>
-    </section>
-
-    <section>
-      <h2>Ryan Trahan</h2>
-      <div class="grid">
-        <iframe src="https://www.youtube.com/embed/QpAGJmL1h3c" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/6yP36VY5Wyg" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/qXfP1v76e8g" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/d4ZkKx0lWUk" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/L3RwGHn3j4o" allowfullscreen></iframe>
-      </div>
-    </section>
-
-    <section>
-      <h2>Tap Out Corner</h2>
-      <div class="grid">
-        <iframe src="https://www.youtube.com/embed/example1" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/example2" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/example3" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/example4" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/example5" allowfullscreen></iframe>
-      </div>
-    </section>
+    <div id="video-grid" class="video-grid"></div>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
